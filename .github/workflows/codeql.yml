@@ -24,7 +24,7 @@ on:
 env:
   # in the future, this flag will not be needed
   # this is for lombok support
-  CODEQL_EXTRACTOR_JAVA_RUN_ANNOTATION_PROCESSORS: true
+  CODEQL_JAVA_LOMBOK: true
   
 jobs:
   analyze:
